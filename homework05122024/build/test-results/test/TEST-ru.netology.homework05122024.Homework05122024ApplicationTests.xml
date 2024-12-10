@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.homework05122024.Homework05122024ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-10T11:29:06" hostname="NIKITIN-NOUT" time="0.876">
+  <properties/>
+  <testcase name="contextLoads()" classname="ru.netology.homework05122024.Homework05122024ApplicationTests" time="0.876"/>
+  <system-out><![CDATA[14:29:02.723 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ru.netology.homework05122024.Homework05122024ApplicationTests]: Homework05122024ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:29:03.092 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ru.netology.homework05122024.Homework05122024Application for test class ru.netology.homework05122024.Homework05122024ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-10T14:29:03.810+03:00  INFO 8932 --- [homework05122024] [    Test worker] r.n.h.Homework05122024ApplicationTests   : Starting Homework05122024ApplicationTests using Java 21.0.2 with PID 8932 (started by A.Y.Nikitin in C:\Users\a.y.nikitin\IdeaProjects\homework05122024)
+2024-12-10T14:29:03.814+03:00  INFO 8932 --- [homework05122024] [    Test worker] r.n.h.Homework05122024ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-12-10T14:29:06.311+03:00  INFO 8932 --- [homework05122024] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-10T14:29:06.460+03:00  INFO 8932 --- [homework05122024] [    Test worker] r.n.h.Homework05122024ApplicationTests   : Started Homework05122024ApplicationTests in 2.991 seconds (process running for 4.868)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\a.y.nikitin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.10\e8eb255b2c378b9a6c7341e7b0e12f0a5636377\byte-buddy-agent-1.15.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
